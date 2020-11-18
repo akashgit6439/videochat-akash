@@ -8,7 +8,7 @@ const peerServer = ExpressPeerServer(server,{
     debug:true
 });
 
-const port = process.env.PORT|| 3000;
+const port = process.env.PORT|| 3030;
 
 //template engine
 app.set('view engine','ejs');
